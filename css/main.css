@@ -102,22 +102,26 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
+  font-family: 'Raleway', sans-serif;  padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: #000;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: lavender;
   height: 80px;
   width: 100%;
 }
 
+header {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 4rem;
+}
+
 main {
-  background-color: #ccc;
+  background-color: lightgray;
   height: 250px;
   width: 100%;
 }
@@ -145,10 +149,40 @@ main {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1rem;
+  background-color: black;
   width: 30%;
   height: 200px;
+}
+
+#div-1 {
+    background: url(../img/castle-stuff-frt.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: inherit;
+}
+
+a:link {
+    color: lightcoral;
+}
+
+a:visited {
+    color: grey;
+}
+
+#div-2 {
+    padding: 20px;
+}
+
+
+
+#div-3 {
+    background: url(../img/tarot-stuff-frt.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: inherit;
 }
 
 /* ==========================================================================
